@@ -1,15 +1,18 @@
+import { useState } from "react";
 
-const NavBar =({message,setMessage,displayMessage,inputFirst}) => {
+const InputFirst =() => {
 
-const displayMessage =({message})=>{
-    <p>{message}</p>
-}
+const [message, setMessage] = useState("");
 
-const inputFirst =({setMessage}) => {
-    const handleChange=(e)=> {
-        setMessage(e.target.value);
-    }
+    return (
+<div>
+<p>Bienvenue {message} !</p>
+<input 
+type="text"
+name="message" 
+onChange={(e)=>setMessage(e.target.value)} />
+</div>
+);
+};
 
-return <input name="message" onChange={handleChange} />;
-}
-}
+export default InputFirst;
