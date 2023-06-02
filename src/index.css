@@ -1,6 +1,4 @@
 
-body {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+body{
+  background-image: url("https://www.supersoluce.com/sites/default/files/logo1/000-image-illu-ff-10-retour-macalania.jpg") ;
 }

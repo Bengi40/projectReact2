@@ -1,11 +1,12 @@
 import { useState } from "react";
+import './InputFirst.css'
 
 const InputFirst =() => {
 
 const [message, setMessage] = useState("");
 
     return (
-<div>
+<div className="inputbox">
 <p>Bienvenue {message} !</p>
 <input 
 type="text"

@@ -6,6 +6,7 @@ import InputFirst from './components/InputFirst'
 import PresentationBox from './components/PresentationBox'
 
 
+
 const FFcharacters = [
   {
     name:"Tidus",
@@ -79,7 +80,9 @@ function App() {
   return (
     <>  
       <InputFirst/>
-      <PresentationBox FFcharacters={FFcharacters}/>
+      <div className='allboxes'>
+        <PresentationBox FFcharacters={FFcharacters}/>
+      </div>
     </>
   )
 }
