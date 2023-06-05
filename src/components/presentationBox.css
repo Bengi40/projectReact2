@@ -20,10 +20,12 @@ p{
     margin: auto;
     margin-top:2rem;
     text-align: center;
+    color:black;
 }
 
 h1{
     margin:auto;
     text-align: center;
     padding:1rem;
+    color:aqua
 }

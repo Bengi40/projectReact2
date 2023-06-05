@@ -7,11 +7,8 @@ const [message, setMessage] = useState("");
 
     return (
 <div className="inputbox">
-<p>Bienvenue {message} !</p>
-<input 
-type="text"
-name="message" 
-onChange={(e)=>setMessage(e.target.value)} />
+<p>Welcome {message} !</p>
+<input type="text" name="message" placeholder="Write here your name" onChange={(e)=>setMessage(e.target.value)} />
 </div>
 );
 };
